@@ -1,0 +1,51 @@
+[
+  {
+    "id": 10,
+    "theme": "education",
+    "date": "2014/09 ~ 2018/06",
+    "title": "私立醒吾科技大學",
+    "subtitle": "商業設計系",
+    "logo": "images/education/hwu.jpg",
+    "content": [{ "h5": "專業證照", "list_ul": ["印前製程乙級", "電子商務規劃師-乙級", "adobe photoshop"] }],
+    "tags": [
+      "平面設計理論",
+      "繪圖工具與軟體操作",
+      "電腦排版設計",
+      "繪製2D／3D模具設計圖",
+      "產品外型設計",
+      "插畫表現技巧"
+    ]
+  },
+  {
+    "id": 20,
+    "theme": "work",
+    "date": "2018/06 - present",
+    "title": "MamiBuy_紳太國際資訊股份有限公司",
+    "subtitle": "美術助理",
+    "logo": "images/education/MMB.png",
+    "content": [
+      {
+        "h5": "部門",
+        "list_ul": ["數位行銷部"]
+      },
+      {
+        "h5": "工作項目：",
+        "list_ul": ["製作網路Banner(FB&LINE)", "公司印刷品製作(名片.信封等等)"]
+      }
+    ],
+    "tags": [
+      "ASP.NET",
+      "C#",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "ReactJS",
+      "Less",
+      "Sass",
+      "Webpack4",
+      "Babel7",
+      "npm",
+      "MySql"
+    ]
+  }
+]
