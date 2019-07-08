@@ -32,20 +32,6 @@
         "h5": "工作項目：",
         "list_ul": ["製作網路Banner(FB&LINE)", "公司印刷品製作(名片.信封等等)"]
       }
-    ],
-    "tags": [
-      "ASP.NET",
-      "C#",
-      "HTML5",
-      "CSS3",
-      "JavaScript",
-      "ReactJS",
-      "Less",
-      "Sass",
-      "Webpack4",
-      "Babel7",
-      "npm",
-      "MySql"
     ]
   }
 ]

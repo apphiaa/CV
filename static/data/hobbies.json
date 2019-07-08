@@ -2,16 +2,19 @@
   {
     "id": 10,
     "name": "旅遊",
+    "desc": "",
     "icon": "images/hobbies/plane.png"
   },
   {
     "id": 20,
     "name": "唱歌",
+    "desc": "",
     "icon": "images/hobbies/hand.png"
   },
   {
     "id": 30,
     "name": "電影",
+    "desc": "",
     "icon": "images/hobbies/film.png"
   }
 ]
