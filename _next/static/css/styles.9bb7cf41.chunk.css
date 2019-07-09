@@ -1,94 +1,3 @@
-.portfolio-module_box_1Qwfl .portfolio-module_mask_1YTB5 .portfolio-module_category_2bFHt {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-
-.portfolio-module_more_2qTrO,
-.portfolio-module_loading_1Qr-7 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); }
-
-.portfolio-module_box_1Qwfl {
-  position: relative;
-  margin: 0.5rem;
-  display: block;
-  line-height: 0;
-  font-size: 0;
-  box-shadow: 4px 4px 6px rgba(236, 92, 30, 0.3);
-  overflow: hidden; }
-  .portfolio-module_box_1Qwfl:hover {
-    box-shadow: 4px 4px 12px rgba(236, 92, 30, 0.3); }
-    .portfolio-module_box_1Qwfl:hover .portfolio-module_mask_1YTB5 {
-      visibility: visible;
-      top: 0; }
-  .portfolio-module_box_1Qwfl img {
-    max-width: 100%;
-    height: auto;
-    vertical-align: top;
-    border-style: none; }
-  .portfolio-module_box_1Qwfl .portfolio-module_mask_1YTB5 {
-    position: absolute;
-    top: -100%;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    visibility: hidden;
-    transition-property: top, visibility;
-    transition-duration: 0.3s; }
-    .portfolio-module_box_1Qwfl .portfolio-module_mask_1YTB5 .portfolio-module_category_2bFHt {
-      margin: 0;
-      padding: 0;
-      justify-content: start;
-      line-height: 0; }
-      .portfolio-module_box_1Qwfl .portfolio-module_mask_1YTB5 .portfolio-module_category_2bFHt span {
-        margin: 1px;
-        padding: 1px;
-        color: #222222;
-        background-color: rgba(255, 255, 255, 0.5);
-        border-radius: 0.2em; }
-        .portfolio-module_box_1Qwfl .portfolio-module_mask_1YTB5 .portfolio-module_category_2bFHt span {
-          font-size: 12px; }
-        @media (min-width: 320px) and (max-width: 1024px) {
-          .portfolio-module_box_1Qwfl .portfolio-module_mask_1YTB5 .portfolio-module_category_2bFHt span {
-            font-size: calc( 12px + 0 * (100vw - 320px) / 704); } }
-        @media (min-width: 1024px) {
-          .portfolio-module_box_1Qwfl .portfolio-module_mask_1YTB5 .portfolio-module_category_2bFHt span {
-            font-size: 12px; } }
-    .portfolio-module_box_1Qwfl .portfolio-module_mask_1YTB5 figcaption {
-      margin: 0.2em 0 0;
-      display: block;
-      font-weight: normal; }
-
-.portfolio-module_tips_3R3iN {
-  z-index: 4;
-  margin-top: 30px;
-  width: 100%;
-  text-align: center; }
-
-.portfolio-module_more_2qTrO,
-.portfolio-module_loading_1Qr-7 {
-  z-index: 4;
-  top: 85vh;
-  display: block; }
-
-.portfolio-module_loading_1Qr-7 {
-  width: 18px;
-  height: 18px;
-  border: solid 2px transparent;
-  border-top-color: #e23939;
-  border-left-color: #e23939;
-  border-radius: 50%;
-  animation: portfolio-module_nprogress-spinner_3eFif 0.5s linear infinite; }
-
-@keyframes portfolio-module_nprogress-spinner_3eFif {
-  from {
-    transform: rotate(0deg); }
-  to {
-    transform: rotate(360deg); } }
-
 .block-module_block_3Wnej {
   position: relative;
   padding: 0 1rem 2rem; }
@@ -1052,4 +961,108 @@
 
 .vertical-timeline-element--start .vertical-timeline-element-icon {
   background-color: #e23939; }
+
+.portfolio-module_nav_pa1za, .portfolio-module_box_2_DkE .portfolio-module_mask_cR295 .portfolio-module_category_3VddP, .portfolio-module_tips_3GKWZ, .portfolio-module_more_30KQ0,
+.portfolio-module_loading_3B1bR {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.portfolio-module_nav_pa1za {
+  justify-content: flex-start; }
+  .portfolio-module_nav_pa1za > * {
+    margin-right: 10px;
+    cursor: pointer; }
+    .portfolio-module_nav_pa1za > *:last-of-type {
+      margin-right: 0; }
+    .portfolio-module_nav_pa1za > *.portfolio-module_active_2FpIQ {
+      text-decoration: underline; }
+
+.portfolio-module_box_2_DkE {
+  position: relative;
+  margin: 0.5rem;
+  display: block;
+  font-size: 0;
+  box-shadow: 4px 4px 6px rgba(236, 92, 30, 0.3);
+  overflow: hidden; }
+  .portfolio-module_box_2_DkE:hover {
+    box-shadow: 4px 4px 12px rgba(236, 92, 30, 0.3); }
+    .portfolio-module_box_2_DkE:hover .portfolio-module_mask_cR295 {
+      visibility: visible;
+      top: 0; }
+  .portfolio-module_box_2_DkE figure {
+    line-height: 0; }
+  .portfolio-module_box_2_DkE img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: top;
+    border-style: none; }
+  .portfolio-module_box_2_DkE .portfolio-module_mask_cR295 {
+    position: absolute;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+    transition-property: top, visibility;
+    transition-duration: 0.3s; }
+    .portfolio-module_box_2_DkE .portfolio-module_mask_cR295 .portfolio-module_category_3VddP {
+      margin: 0;
+      padding: 0;
+      justify-content: start;
+      line-height: 0; }
+      .portfolio-module_box_2_DkE .portfolio-module_mask_cR295 .portfolio-module_category_3VddP span {
+        margin: 1px;
+        padding: 1px;
+        color: #222222;
+        background-color: rgba(255, 255, 255, 0.5);
+        border-radius: 0.2em; }
+        .portfolio-module_box_2_DkE .portfolio-module_mask_cR295 .portfolio-module_category_3VddP span {
+          font-size: 12px; }
+        @media (min-width: 320px) and (max-width: 1024px) {
+          .portfolio-module_box_2_DkE .portfolio-module_mask_cR295 .portfolio-module_category_3VddP span {
+            font-size: calc( 12px + 0 * (100vw - 320px) / 704); } }
+        @media (min-width: 1024px) {
+          .portfolio-module_box_2_DkE .portfolio-module_mask_cR295 .portfolio-module_category_3VddP span {
+            font-size: 12px; } }
+    .portfolio-module_box_2_DkE .portfolio-module_mask_cR295 figcaption {
+      margin: 0.2em 0 0;
+      display: block;
+      font-weight: normal; }
+
+.portfolio-module_tips_3GKWZ {
+  z-index: 4;
+  position: fixed;
+  left: 0;
+  bottom: 5vh;
+  width: 100%;
+  height: 5vh;
+  text-align: center; }
+
+.portfolio-module_more_30KQ0,
+.portfolio-module_loading_3B1bR {
+  background-color: transparent;
+  color: inherit;
+  cursor: pointer; }
+
+.portfolio-module_loading_3B1bR {
+  width: 18px;
+  height: 18px;
+  border: solid 2px transparent;
+  border-top-color: #e23939;
+  border-left-color: #e23939;
+  border-radius: 50%;
+  animation: portfolio-module_nprogress-spinner_wKMAL 0.5s linear infinite; }
+
+.portfolio-module_done_2h9lq {
+  margin: 30px auto;
+  width: 100%;
+  text-align: center; }
+
+@keyframes portfolio-module_nprogress-spinner_wKMAL {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
 
