@@ -10762,7 +10762,6 @@ var GA_TRACKING_ID = "UA-143299876-1"; // https://developers.google.com/analytic
 
 
 var pageview = function pageview(url) {
-  console.log('----pageview', url);
   window.gtag('config', GA_TRACKING_ID, {
     page_path: url
   });
