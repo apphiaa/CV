@@ -19,7 +19,7 @@
   {
     "id": 20,
     "theme": "work",
-    "date": "2018/11 - present",
+    "date": "2018/06 - present",
     "title": "MamiBuy_紳太國際資訊股份有限公司",
     "subtitle": "美術助理",
     "logo": "images/education/MMB.png",
@@ -32,7 +32,6 @@
         "h5": "工作項目：",
         "list_ul": ["製作網路Banner(FB&LINE)", "公司印刷品製作(名片.信封等等)"]
       }
-    ],
-    "tags": ["視覺設計", "Banner & Cover", "名片", "FB & LINE & 官網", "Photoshop", "Illustrator", "印刷"]
+    ]
   }
 ]
