@@ -1,48 +1,5 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[1],{
 
-/***/ "../node_modules/@babel/runtime-corejs2/helpers/esm/objectSpread.js":
-/*!**************************************************************************!*\
-  !*** ../node_modules/@babel/runtime-corejs2/helpers/esm/objectSpread.js ***!
-  \**************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _objectSpread; });
-/* harmony import */ var _core_js_object_get_own_property_descriptor__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../core-js/object/get-own-property-descriptor */ "../node_modules/@babel/runtime-corejs2/core-js/object/get-own-property-descriptor.js");
-/* harmony import */ var _core_js_object_get_own_property_descriptor__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_core_js_object_get_own_property_descriptor__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _core_js_object_get_own_property_symbols__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../core-js/object/get-own-property-symbols */ "../node_modules/@babel/runtime-corejs2/core-js/object/get-own-property-symbols.js");
-/* harmony import */ var _core_js_object_get_own_property_symbols__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_core_js_object_get_own_property_symbols__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _core_js_object_keys__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../core-js/object/keys */ "../node_modules/@babel/runtime-corejs2/core-js/object/keys.js");
-/* harmony import */ var _core_js_object_keys__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_core_js_object_keys__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _defineProperty__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./defineProperty */ "../node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js");
-
-
-
-
-function _objectSpread(target) {
-  for (var i = 1; i < arguments.length; i++) {
-    var source = arguments[i] != null ? arguments[i] : {};
-
-    var ownKeys = _core_js_object_keys__WEBPACK_IMPORTED_MODULE_2___default()(source);
-
-    if (typeof _core_js_object_get_own_property_symbols__WEBPACK_IMPORTED_MODULE_1___default.a === 'function') {
-      ownKeys = ownKeys.concat(_core_js_object_get_own_property_symbols__WEBPACK_IMPORTED_MODULE_1___default()(source).filter(function (sym) {
-        return _core_js_object_get_own_property_descriptor__WEBPACK_IMPORTED_MODULE_0___default()(source, sym).enumerable;
-      }));
-    }
-
-    ownKeys.forEach(function (key) {
-      Object(_defineProperty__WEBPACK_IMPORTED_MODULE_3__["default"])(target, key, source[key]);
-    });
-  }
-
-  return target;
-}
-
-/***/ }),
-
 /***/ "../node_modules/@babel/runtime/helpers/interopRequireDefault.js":
 /*!***********************************************************************!*\
   !*** ../node_modules/@babel/runtime/helpers/interopRequireDefault.js ***!
@@ -23886,13 +23843,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_presentational_Image__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @components/presentational/Image */ "./components/presentational/Image.js");
 /* harmony import */ var _utils_hooks_useInfiniteScroll__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @utils/hooks/useInfiniteScroll */ "./assets/utils/hooks/useInfiniteScroll.js");
 /* harmony import */ var _utils_gtag__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @utils/gtag */ "./assets/utils/gtag.js");
-/* harmony import */ var _sass_components_portfolio_module_scss__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @sass/components/portfolio.module.scss */ "./assets/sass/components/portfolio.module.scss");
-/* harmony import */ var _sass_components_portfolio_module_scss__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(_sass_components_portfolio_module_scss__WEBPACK_IMPORTED_MODULE_12__);
+/* harmony import */ var _utils_common_Compare__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @utils/common/Compare */ "./assets/utils/common/Compare.js");
+/* harmony import */ var _sass_components_portfolio_module_scss__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @sass/components/portfolio.module.scss */ "./assets/sass/components/portfolio.module.scss");
+/* harmony import */ var _sass_components_portfolio_module_scss__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(_sass_components_portfolio_module_scss__WEBPACK_IMPORTED_MODULE_13__);
 
 
 
 
-var _jsxFileName = "D:\\apphia\\CV_CODE\\src\\components\\container\\Portfolio.js";
+var _jsxFileName = "D:\\CODE\\Git\\Source\\Repos\\CV\\Apphia\\CV_CODE\\src\\components\\container\\Portfolio.js";
 
 
 /* eslint-disable no-use-before-define */
@@ -23912,35 +23870,41 @@ var _jsxFileName = "D:\\apphia\\CV_CODE\\src\\components\\container\\Portfolio.j
  // 工具
 
 
- // import { Compare } from '@utils/common/Compare'
-// 樣式
+
+ // 樣式
 
 
 var ARRAY_SIZE = 20;
 var Portfolio = Object(react__WEBPACK_IMPORTED_MODULE_4__["memo"])(function (_ref) {
   var data = _ref.data;
-  console.log('render Portfolio'); // 顯示的物件
+  console.log('render Portfolio');
 
-  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_4__["useState"])([]),
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_4__["useState"])(true),
       _useState2 = Object(_babel_runtime_corejs2_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_3__["default"])(_useState, 2),
-      listItems = _useState2[0],
-      setListItems = _useState2[1]; // 全部的物件
+      isChk = _useState2[0],
+      setIsChk = _useState2[1]; // 顯示的物件
 
 
-  var _useState3 = Object(react__WEBPACK_IMPORTED_MODULE_4__["useState"])(data),
+  var _useState3 = Object(react__WEBPACK_IMPORTED_MODULE_4__["useState"])([]),
       _useState4 = Object(_babel_runtime_corejs2_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_3__["default"])(_useState3, 2),
-      filterData = _useState4[0],
-      setFilterData = _useState4[1];
+      listItems = _useState4[0],
+      setListItems = _useState4[1]; // 全部的物件
 
-  var _useState5 = Object(react__WEBPACK_IMPORTED_MODULE_4__["useState"])(0),
+
+  var _useState5 = Object(react__WEBPACK_IMPORTED_MODULE_4__["useState"])(data.sort(isChk ? _utils_common_Compare__WEBPACK_IMPORTED_MODULE_12__["Compare"].ID_DESC : _utils_common_Compare__WEBPACK_IMPORTED_MODULE_12__["Compare"].ID_ASC)),
       _useState6 = Object(_babel_runtime_corejs2_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_3__["default"])(_useState5, 2),
-      selectedIndex = _useState6[0],
-      setSelectedIndex = _useState6[1];
+      filterData = _useState6[0],
+      setFilterData = _useState6[1];
 
-  var _useState7 = Object(react__WEBPACK_IMPORTED_MODULE_4__["useState"])(false),
+  var _useState7 = Object(react__WEBPACK_IMPORTED_MODULE_4__["useState"])(0),
       _useState8 = Object(_babel_runtime_corejs2_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_3__["default"])(_useState7, 2),
-      lightboxIsOpen = _useState8[0],
-      setLightboxIsOpen = _useState8[1]; // 格子引用
+      selectedIndex = _useState8[0],
+      setSelectedIndex = _useState8[1];
+
+  var _useState9 = Object(react__WEBPACK_IMPORTED_MODULE_4__["useState"])(false),
+      _useState10 = Object(_babel_runtime_corejs2_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_3__["default"])(_useState9, 2),
+      lightboxIsOpen = _useState10[0],
+      setLightboxIsOpen = _useState10[1]; // 格子引用
 
 
   var lastSelectedIndexRef = Object(react__WEBPACK_IMPORTED_MODULE_4__["useRef"])();
@@ -24013,11 +23977,11 @@ var Portfolio = Object(react__WEBPACK_IMPORTED_MODULE_4__["memo"])(function (_re
     categoryRef.current = value;
 
     if (categoryRef.current) {
-      setFilterData(data.filter(function (_data) {
+      setFilterData(data.sort(isChk ? _utils_common_Compare__WEBPACK_IMPORTED_MODULE_12__["Compare"].ID_DESC : _utils_common_Compare__WEBPACK_IMPORTED_MODULE_12__["Compare"].ID_ASC).filter(function (_data) {
         return _data.category.includes(categoryRef.current);
       }));
     } else {
-      setFilterData(data);
+      setFilterData(data.sort(isChk ? _utils_common_Compare__WEBPACK_IMPORTED_MODULE_12__["Compare"].ID_DESC : _utils_common_Compare__WEBPACK_IMPORTED_MODULE_12__["Compare"].ID_ASC));
     }
 
     handleReset();
@@ -24046,11 +24010,37 @@ var Portfolio = Object(react__WEBPACK_IMPORTED_MODULE_4__["memo"])(function (_re
     });
   };
 
+  var handleChkChange = function handleChkChange() {
+    if (isFetching) return;
+    var lastChk;
+    setIsChk(function (flag) {
+      lastChk = !flag;
+      return !flag;
+    });
+    setFilterData(function (data) {
+      return data.sort(lastChk ? _utils_common_Compare__WEBPACK_IMPORTED_MODULE_12__["Compare"].ID_DESC : _utils_common_Compare__WEBPACK_IMPORTED_MODULE_12__["Compare"].ID_ASC);
+    });
+    handleReset();
+  };
+
   var COLUMN_WIDTH = document.body.clientWidth > 480 ? 200 : 150;
   return react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_4___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 136
+      lineNumber: 149
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 150
+    },
+    __self: this
+  }, "isChk:".concat(isChk)), react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
+    className: _sass_components_portfolio_module_scss__WEBPACK_IMPORTED_MODULE_13___default.a.topBox,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 151
     },
     __self: this
   }, Object(react__WEBPACK_IMPORTED_MODULE_4__["useMemo"])(function () {
@@ -24059,11 +24049,41 @@ var Portfolio = Object(react__WEBPACK_IMPORTED_MODULE_4__["memo"])(function (_re
       categoryRef: categoryRef,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 139
+        lineNumber: 154
       },
       __self: this
     });
-  }, [categoryRef.current]), Object(react__WEBPACK_IMPORTED_MODULE_4__["useMemo"])(function () {
+  }, [categoryRef.current]), react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 158
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("label", {
+    htmlFor: "default",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 159
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("input", {
+    type: "checkbox",
+    id: "default",
+    defaultChecked: isChk,
+    onChange: handleChkChange,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 160
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("span", {
+    className: _sass_components_portfolio_module_scss__WEBPACK_IMPORTED_MODULE_13___default.a["switch"],
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 161
+    },
+    __self: this
+  })))), Object(react__WEBPACK_IMPORTED_MODULE_4__["useMemo"])(function () {
     return react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(react_stack_grid__WEBPACK_IMPORTED_MODULE_5___default.a, {
       columnWidth: COLUMN_WIDTH,
       monitorImagesLoaded: false,
@@ -24072,12 +24092,12 @@ var Portfolio = Object(react__WEBPACK_IMPORTED_MODULE_4__["memo"])(function (_re
       },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 145
+        lineNumber: 167
       },
       __self: this
     }, listItems.map(function (item, index) {
       return react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(Box, {
-        key: index,
+        key: item.id,
         item: item,
         columnWidth: COLUMN_WIDTH,
         onClick: function onClick() {
@@ -24088,51 +24108,51 @@ var Portfolio = Object(react__WEBPACK_IMPORTED_MODULE_4__["memo"])(function (_re
         ,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 151
+          lineNumber: 173
         },
         __self: this
       });
     }));
   }, [listItems]), react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
-    className: _sass_components_portfolio_module_scss__WEBPACK_IMPORTED_MODULE_12___default.a.tips,
+    className: _sass_components_portfolio_module_scss__WEBPACK_IMPORTED_MODULE_13___default.a.tips,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 167
+      lineNumber: 189
     },
     __self: this
   }, hasMore && isFetching && react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("span", {
-    className: _sass_components_portfolio_module_scss__WEBPACK_IMPORTED_MODULE_12___default.a.loading,
+    className: _sass_components_portfolio_module_scss__WEBPACK_IMPORTED_MODULE_13___default.a.loading,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 168
+      lineNumber: 190
     },
     __self: this
   }), hasMore && !isFetching && react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("button", {
     type: "button",
-    className: _sass_components_portfolio_module_scss__WEBPACK_IMPORTED_MODULE_12___default.a.more,
+    className: _sass_components_portfolio_module_scss__WEBPACK_IMPORTED_MODULE_13___default.a.more,
     onClick: handleLoad,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 170
+      lineNumber: 192
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(react_icons_md__WEBPACK_IMPORTED_MODULE_8__["MdExpandMore"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 171
+      lineNumber: 193
     },
     __self: this
   }))), !hasMore && react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
-    className: _sass_components_portfolio_module_scss__WEBPACK_IMPORTED_MODULE_12___default.a.done,
+    className: _sass_components_portfolio_module_scss__WEBPACK_IMPORTED_MODULE_13___default.a.done,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 175
+      lineNumber: 197
     },
     __self: this
   }, "Will be updated")), react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(react_images__WEBPACK_IMPORTED_MODULE_6__["ModalGateway"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 177
+      lineNumber: 199
     },
     __self: this
   }, lightboxIsOpen ? react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(react_images__WEBPACK_IMPORTED_MODULE_6__["Modal"], {
@@ -24157,7 +24177,7 @@ var Portfolio = Object(react__WEBPACK_IMPORTED_MODULE_4__["memo"])(function (_re
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 179
+      lineNumber: 201
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(react_images__WEBPACK_IMPORTED_MODULE_6__["default"], {
@@ -24193,7 +24213,7 @@ var Portfolio = Object(react__WEBPACK_IMPORTED_MODULE_4__["memo"])(function (_re
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 197
+      lineNumber: 219
     },
     __self: this
   })) : null));
@@ -24216,24 +24236,24 @@ var Nav = function Nav(_ref4) {
     value: 'resize'
   }];
   return react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("ul", {
-    className: _sass_components_portfolio_module_scss__WEBPACK_IMPORTED_MODULE_12___default.a.nav,
+    className: _sass_components_portfolio_module_scss__WEBPACK_IMPORTED_MODULE_13___default.a.nav,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 241
+      lineNumber: 263
     },
     __self: this
   }, categoryArr.map(function (category) {
     return react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("li", {
       key: category.id,
       role: "menuitem",
-      className: classnames__WEBPACK_IMPORTED_MODULE_7___default()(Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])({}, _sass_components_portfolio_module_scss__WEBPACK_IMPORTED_MODULE_12___default.a.active, categoryRef.current === category.value)),
+      className: classnames__WEBPACK_IMPORTED_MODULE_7___default()(Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])({}, _sass_components_portfolio_module_scss__WEBPACK_IMPORTED_MODULE_13___default.a.active, categoryRef.current === category.value)),
       onClick: function onClick() {
         return handleFilter(category);
       },
       onKeyUp: function onKeyUp() {},
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 243
+        lineNumber: 265
       },
       __self: this
     }, category.display);
@@ -24245,20 +24265,20 @@ var Box = function Box(_ref5) {
       columnWidth = _ref5.columnWidth,
       onClick = _ref5.onClick;
   return react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
-    className: _sass_components_portfolio_module_scss__WEBPACK_IMPORTED_MODULE_12___default.a.box,
+    className: _sass_components_portfolio_module_scss__WEBPACK_IMPORTED_MODULE_13___default.a.box,
     role: "button",
     tabIndex: 0,
     onClick: onClick,
     onKeyUp: function onKeyUp() {},
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 259
+      lineNumber: 281
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("figure", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 260
+      lineNumber: 282
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_components_presentational_Image__WEBPACK_IMPORTED_MODULE_9__["default"], {
@@ -24270,21 +24290,21 @@ var Box = function Box(_ref5) {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 261
+      lineNumber: 283
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
-    className: _sass_components_portfolio_module_scss__WEBPACK_IMPORTED_MODULE_12___default.a.mask,
+    className: _sass_components_portfolio_module_scss__WEBPACK_IMPORTED_MODULE_13___default.a.mask,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 262
+      lineNumber: 284
     },
     __self: this
   }, item.category && react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
-    className: _sass_components_portfolio_module_scss__WEBPACK_IMPORTED_MODULE_12___default.a.category,
+    className: _sass_components_portfolio_module_scss__WEBPACK_IMPORTED_MODULE_13___default.a.category,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 264
+      lineNumber: 286
     },
     __self: this
   }, item.category.map(function (c) {
@@ -24292,7 +24312,7 @@ var Box = function Box(_ref5) {
       key: c,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 266
+        lineNumber: 288
       },
       __self: this
     }, c);
@@ -24324,7 +24344,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _utils_common_Image__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @utils/common/Image */ "./assets/utils/common/Image.js");
 
 
-var _jsxFileName = "D:\\apphia\\CV_CODE\\src\\components\\presentational\\Image.js";
+var _jsxFileName = "D:\\CODE\\Git\\Source\\Repos\\CV\\Apphia\\CV_CODE\\src\\components\\presentational\\Image.js";
 
 
 /* eslint-disable import/no-dynamic-require */
@@ -24515,14 +24535,6 @@ var map = {
 	"./data/skills": "./static/data/skills.json",
 	"./data/skills.json": "./static/data/skills.json",
 	"./favicon.ico": "./static/favicon.ico",
-	"./images/201906/Package/1.jpg": "./static/images/201906/Package/1.jpg",
-	"./images/201906/Package/2.jpg": "./static/images/201906/Package/2.jpg",
-	"./images/201906/Package/3.jpg": "./static/images/201906/Package/3.jpg",
-	"./images/201906/Package/4.jpg": "./static/images/201906/Package/4.jpg",
-	"./images/201906/Package/5.jpg": "./static/images/201906/Package/5.jpg",
-	"./images/201906/Package/6.jpg": "./static/images/201906/Package/6.jpg",
-	"./images/201906/ProductDesign/1.jpg": "./static/images/201906/ProductDesign/1.jpg",
-	"./images/201906/lineStickerAndLOGO/1-01.jpg": "./static/images/201906/lineStickerAndLOGO/1-01.jpg",
 	"./images/NotFound.png": "./static/images/NotFound.png",
 	"./images/background/bg.jpg": "./static/images/background/bg.jpg",
 	"./images/covor/cover.jpg": "./static/images/covor/cover.jpg",
@@ -24643,7 +24655,7 @@ webpackContext.id = "./static sync recursive ^\\.\\/.*$";
 /*! exports provided: 0, 1, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("[{\"id\":10,\"theme\":\"education\",\"date\":\"2014/09 ~ 2018/06\",\"title\":\"私立醒吾科技大學\",\"subtitle\":\"商業設計系\",\"logo\":\"images/education/hwu.jpg\",\"content\":[{\"h5\":\"專業證照\",\"list_ul\":[\"印前製程乙級\",\"電子商務規劃師-乙級\",\"adobe photoshop\"]}],\"tags\":[\"平面設計理論\",\"繪圖工具與軟體操作\",\"電腦排版設計\",\"繪製2D／3D模具設計圖\",\"產品外型設計\",\"插畫表現技巧\"]},{\"id\":20,\"theme\":\"work\",\"date\":\"2018/11 - present\",\"title\":\"MamiBuy_紳太國際資訊股份有限公司\",\"subtitle\":\"美術助理\",\"logo\":\"images/education/MMB.png\",\"content\":[{\"h5\":\"部門\",\"list_ul\":[\"數位行銷部\"]},{\"h5\":\"工作項目：\",\"list_ul\":[\"製作網路Banner(FB&LINE)\",\"公司印刷品製作(名片.信封等等)\"]}],\"tags\":[\"視覺設計\",\"Banner & Cover\",\"名片\",\"FB & LINE & 官網\",\"Photoshop\",\"Illustrator\",\"印刷\"]}]");
+module.exports = JSON.parse("[{\"id\":10,\"theme\":\"education\",\"date\":\"2014/09 ~ 2018/06\",\"title\":\"私立醒吾科技大學\",\"subtitle\":\"商業設計系\",\"logo\":\"images/education/hwu.jpg\",\"content\":[{\"h5\":\"專業證照\",\"list_ul\":[\"印前製程乙級\",\"電子商務規劃師-乙級\",\"adobe photoshop\"]}],\"tags\":[\"平面設計理論\",\"繪圖工具與軟體操作\",\"電腦排版設計\",\"繪製2D／3D模具設計圖\",\"產品外型設計\",\"插畫表現技巧\"]},{\"id\":20,\"theme\":\"work\",\"date\":\"2018/06 - present\",\"title\":\"MamiBuy_紳太國際資訊股份有限公司\",\"subtitle\":\"美術助理\",\"logo\":\"images/education/MMB.png\",\"content\":[{\"h5\":\"部門\",\"list_ul\":[\"數位行銷部\"]},{\"h5\":\"工作項目：\",\"list_ul\":[\"製作網路Banner(FB&LINE)\",\"公司印刷品製作(名片.信封等等)\"]}]}]");
 
 /***/ }),
 
@@ -24699,14 +24711,6 @@ module.exports = "/_next/static/images/favicon-63f0e03be5868bf799dd63ae965f83f6.
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./201906/Package/1.jpg": "./static/images/201906/Package/1.jpg?lqip",
-	"./201906/Package/2.jpg": "./static/images/201906/Package/2.jpg?lqip",
-	"./201906/Package/3.jpg": "./static/images/201906/Package/3.jpg?lqip",
-	"./201906/Package/4.jpg": "./static/images/201906/Package/4.jpg?lqip",
-	"./201906/Package/5.jpg": "./static/images/201906/Package/5.jpg?lqip",
-	"./201906/Package/6.jpg": "./static/images/201906/Package/6.jpg?lqip",
-	"./201906/ProductDesign/1.jpg": "./static/images/201906/ProductDesign/1.jpg?lqip",
-	"./201906/lineStickerAndLOGO/1-01.jpg": "./static/images/201906/lineStickerAndLOGO/1-01.jpg?lqip",
 	"./NotFound.png": "./static/images/NotFound.png?lqip",
 	"./background/bg.jpg": "./static/images/background/bg.jpg?lqip",
 	"./covor/cover.jpg": "./static/images/covor/cover.jpg?lqip",
@@ -24821,14 +24825,6 @@ webpackContext.id = "./static/images sync recursive ^\\.\\/.*$?ae48";
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./201906/Package/1.jpg": "./static/images/201906/Package/1.jpg",
-	"./201906/Package/2.jpg": "./static/images/201906/Package/2.jpg",
-	"./201906/Package/3.jpg": "./static/images/201906/Package/3.jpg",
-	"./201906/Package/4.jpg": "./static/images/201906/Package/4.jpg",
-	"./201906/Package/5.jpg": "./static/images/201906/Package/5.jpg",
-	"./201906/Package/6.jpg": "./static/images/201906/Package/6.jpg",
-	"./201906/ProductDesign/1.jpg": "./static/images/201906/ProductDesign/1.jpg",
-	"./201906/lineStickerAndLOGO/1-01.jpg": "./static/images/201906/lineStickerAndLOGO/1-01.jpg",
 	"./NotFound.png": "./static/images/NotFound.png",
 	"./background/bg.jpg": "./static/images/background/bg.jpg",
 	"./covor/cover.jpg": "./static/images/covor/cover.jpg",
@@ -24932,182 +24928,6 @@ webpackContext.keys = function webpackContextKeys() {
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
 webpackContext.id = "./static/images sync recursive ^\\.\\/.*$?cb21";
-
-/***/ }),
-
-/***/ "./static/images/201906/Package/1.jpg":
-/*!********************************************!*\
-  !*** ./static/images/201906/Package/1.jpg ***!
-  \********************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/1-a87f1f504ada1fd1fdca84580b78f54c.jpg";
-
-/***/ }),
-
-/***/ "./static/images/201906/Package/1.jpg?lqip":
-/*!*************************************************!*\
-  !*** ./static/images/201906/Package/1.jpg?lqip ***!
-  \*************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-var lqip = { "src": "/_next/static/images/1-a87f1f504ada1fd1fdca84580b78f54c.jpg", "preSrc": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAf/AABEIAAoACgMBEQACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4+Tl5ufo6ery8/T19vf4+fr/2gAMAwEAAhEDEQA/AP018J/tU/Ej4W/t3/EHQvi58WfG1/8AChfiZ5dvPd6NqXiHSYfCfjjR9W8Q+EPBZ0bS7VdE0XV7bVLebRINTis7fVr23spnsLafg3HyWNzbL8slVniq9oUHTWJhCLqzpqsm4NwScrNe8+VO0FNpdD97wmA4fzzw6hhsFw9lv+s04uODxal9UxSq4eVGniMTPEufPXpyiq8uSvUlhlOUKcrT5T+gjQ9V8H+JNE0fxFo6T3mk69pWn61pd3/Y2rQ/atO1S0hvrK58qfT4p4vPtp4pfLmijlTdtkjRwVHZSxOGr0qdejJypVqcKtKXsK65qdSKnCVpUlJXi07NJrqrn4lXwGLwtethq6hCth6tShWh7elLlq0punUjzRqSjLlnFq8ZSi7XTa1OFi8AeA9TvtZn1LwT4R1CbxBHpEevTX3hvRruXW49GdptITV5LiykfUk0qWSSXTVvDMtjI7vaiJmYnpVGjOnNzpU5OrTUarlCMnUjG/LGpdPniruyldK7sXTxGIp04qnXrQVKblSUKs4qlKXLzSpqMlySlZXcbN9T6BsbS0s7KztLS1t7W1tbW3t7a2t4Y4Le3t4IkihgghiVY4YYY1WOKKNVSNFVEUKAKw+H3Y+7GOkYrRJLRJJaJJaJLRI5pPnlKUvelJuUpS1lKTd3KTd2227tvVvVn//Z" }; module.exports = lqip.preSrc; module.exports = Object.assign(module.exports, lqip);
-
-/***/ }),
-
-/***/ "./static/images/201906/Package/2.jpg":
-/*!********************************************!*\
-  !*** ./static/images/201906/Package/2.jpg ***!
-  \********************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/2-318774fe7cedf4a87c3925d018e7e9c6.jpg";
-
-/***/ }),
-
-/***/ "./static/images/201906/Package/2.jpg?lqip":
-/*!*************************************************!*\
-  !*** ./static/images/201906/Package/2.jpg?lqip ***!
-  \*************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-var lqip = { "src": "/_next/static/images/2-318774fe7cedf4a87c3925d018e7e9c6.jpg", "preSrc": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAf/AABEIAAoACgMBEQACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4+Tl5ufo6ery8/T19vf4+fr/2gAMAwEAAhEDEQA/AP1a/bF/aa/aG/Z8/bv+FPwW+GeseB3+DfxN0JtWtYb7R/tt5HrF1L4z06bRrnWTqH2iO7tdW0jSbq1s7BbPzbS+srYJNI8zSeXtTdt7Kysmnr1bV7231tofqXAnDfD2dYLEYjNMPXxFbD4jFe3jSxVWhNYelhVXpzpKm401BNvmlUjNJxlzWg1y/tQP2dbiYCa58aXL3EoEk7wwOkTTP80rRIbhikbOWKKWYqpALHGa5nTjd+r+w+5+YyinKThCSg2+VSnFyUb+6pNRim0rXfKrvotj5ai8A+BfEXx38Pa14g8F+E9d1nw1Ld6h4c1bWPDmj6nqegX7PKpvtFv72znutKvCrMpubGWCYhmBfBNdf/Ln/t49DLqlSn7T2c5w51OEuSUo80HDWMuVq8XZXi7p9UfprAq+RDwP9VH2H9wVicj3fq/zP//Z" }; module.exports = lqip.preSrc; module.exports = Object.assign(module.exports, lqip);
-
-/***/ }),
-
-/***/ "./static/images/201906/Package/3.jpg":
-/*!********************************************!*\
-  !*** ./static/images/201906/Package/3.jpg ***!
-  \********************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/3-ba5b78e61f8fa0c916527af137dd5ade.jpg";
-
-/***/ }),
-
-/***/ "./static/images/201906/Package/3.jpg?lqip":
-/*!*************************************************!*\
-  !*** ./static/images/201906/Package/3.jpg?lqip ***!
-  \*************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-var lqip = { "src": "/_next/static/images/3-ba5b78e61f8fa0c916527af137dd5ade.jpg", "preSrc": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAf/AABEIAA0ACgMBEQACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4+Tl5ufo6ery8/T19vf4+fr/2gAMAwEAAhEDEQA/AP60dc+KdhoetJbXSuTHawJcyJLDGLVJ1Iil8svNPIivs3HyFjKecYHmmt5Lavz3IOAOIuJeDf8AW7C5zgcPGVDOMTlWW1ni5VsXTyFSq5q54unCphcFOlTpV54ajU9rUqzhT9tTwuGxFHEy7M+8VMo4e42q8K1chzLE0MDW4cwef5zGWDo0MvxHFTWFyNYfA1alHF5pTr16lGljMRQdKjQVSrGhUxeKwmJwtJDrysSS5ySSf3id+f8AngP5Cvw6Wb4lyk+au7ybvyxd7ve7w13fz1P3aOAwajFeypKyWlqitptb6wUPHXw88Ia5DDqusaNBf3GhGK9sfMLAC5hmMcDSrkxzxxNcSypDPHLEsjF41ST95X7RXwmPyjgLF5blWfZ1l2U5hUnXzDKsHja1DA42p+6pydWhGfJapGlRjXjFKOIjRpRrKapw5fyyFPLMdxlhM3zPIslzPOMBho4TA5rjcBQq4/C0JTnVVOliXHnUYVJ1J0VJy9jOpUlScHOfNwbTTbmxNKoycKHbAGeAPYdBX88Sw9Zyk1iqiTk2ly7a7fF0P2WGYYXkhfLqbfLG79ru7LX+Ef/Z" }; module.exports = lqip.preSrc; module.exports = Object.assign(module.exports, lqip);
-
-/***/ }),
-
-/***/ "./static/images/201906/Package/4.jpg":
-/*!********************************************!*\
-  !*** ./static/images/201906/Package/4.jpg ***!
-  \********************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/4-169166030c6822c5de137841c48a08b2.jpg";
-
-/***/ }),
-
-/***/ "./static/images/201906/Package/4.jpg?lqip":
-/*!*************************************************!*\
-  !*** ./static/images/201906/Package/4.jpg?lqip ***!
-  \*************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-var lqip = { "src": "/_next/static/images/4-169166030c6822c5de137841c48a08b2.jpg", "preSrc": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAf/AABEIAAoACgMBEQACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4+Tl5ufo6ery8/T19vf4+fr/2gAMAwEAAhEDEQA/APv39rr9un4i+CP2t9D+APwxtfB9h4X0KPRdQ1XxX4ks9Se98TR+J9HsL8zeHJIdZsYkt9Pnv5dEDixvFi1bR9VOoJdRQf2Mv5hwPkHCeRZLi+D8Nl3D/EOWZ9QwdXO8RmtJYutmWL9hUrYWvlOOwNTDYnAvDUsdB5bShOr7Ou4YtxqzrO/9oYDw6r8Q4HA+IOdZ1xplGbUauNwlLKuHsbgcJlmWZFDGYSeKwHEWX5jgs1w2Y0sznllHMcVmtH+z8ZhsvrUP7Lx+BnT+uVftj/hcHxAsv9DuPHWltPaf6NMw1e6tA0sH7qRhas8xtgXRiLczSmH/AFZlkK7z9JU+jFwXCpUhH6R+TYCMJyjHA4rH5dDFYOMZNLC4mCzBqFfDpexrRTajUhJXdj+bK30isLKtVlR8APFapRlVqSpTweAy/H4SdJzbpzwuOqfUamNw8o2dDF1MDg54ik41pYXDym6MPnK+0LRNbh1HxBrOjaVq+vaBo3iFtC1vVNPtL/V9FZbGG6VtJ1K7hlvdNZbmR7hTZzQkTu8w/eMWP8beEmY5hg/EXJ4YTHYzCw+qYzG8uHxVehH65hsrxlTD4vlpTivrNCpSpVKNe3taU6VOUJxlCLX9ZZx7/Cue4GfvYLFqph8Vg5e9hcTQxGHr069DEYd3o1qNamlCtTqQlCpBKM4yjofPNtDDPb2800UU000EUssssaySyyyRq8kkkjgs8jsSzuxLMxJJJJNezZVP3lRKc5+/Oc0pTnOXvSlKUruUpNtyk222227n5VGUoxUYylGMUoxjFtRjFKySS0SS0SWiWiP/2Q==" }; module.exports = lqip.preSrc; module.exports = Object.assign(module.exports, lqip);
-
-/***/ }),
-
-/***/ "./static/images/201906/Package/5.jpg":
-/*!********************************************!*\
-  !*** ./static/images/201906/Package/5.jpg ***!
-  \********************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/5-ccd7416838579ba6b2b458d421f24d8d.jpg";
-
-/***/ }),
-
-/***/ "./static/images/201906/Package/5.jpg?lqip":
-/*!*************************************************!*\
-  !*** ./static/images/201906/Package/5.jpg?lqip ***!
-  \*************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-var lqip = { "src": "/_next/static/images/5-ccd7416838579ba6b2b458d421f24d8d.jpg", "preSrc": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAf/AABEIAAcACgMBEQACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4+Tl5ufo6ery8/T19vf4+fr/2gAMAwEAAhEDEQA/AP2Jsfi9+0/4Zu/7C8A6V8ONngu/1Ob7FdeEPDU6+ItK1xWt/CWjx6pdatp95bnwvMJJbyN10n+1bZEEes2p0tLDxNnHDToZbiqsqVDG4+tXTw/LD2McJh3Uh7Rwp+0o08VWVP2joUqtfDwu6dGti/jxJvDF08RmVLDzq1sHg40lGdRzdWU66j7jm/Z4idOjOclGrOnQrTgoSq08PPnjh19c+HNN/bDHh7QhrH7UFlJq40bSxqklt8GfhqLeTURZQfbngB0zIhe581ogeQhXPNcUKNfljz4inGfKudLDqSUrLmSfPqk7q/Xc45UM0Umo45Tim1GcqFBSkk9JNW0clq10bsf/2Q==" }; module.exports = lqip.preSrc; module.exports = Object.assign(module.exports, lqip);
-
-/***/ }),
-
-/***/ "./static/images/201906/Package/6.jpg":
-/*!********************************************!*\
-  !*** ./static/images/201906/Package/6.jpg ***!
-  \********************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/6-0f4f5a9c65ec786a1ada7c0c3386d187.jpg";
-
-/***/ }),
-
-/***/ "./static/images/201906/Package/6.jpg?lqip":
-/*!*************************************************!*\
-  !*** ./static/images/201906/Package/6.jpg?lqip ***!
-  \*************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-var lqip = { "src": "/_next/static/images/6-0f4f5a9c65ec786a1ada7c0c3386d187.jpg", "preSrc": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAf/AABEIAAcACgMBEQACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4+Tl5ufo6ery8/T19vf4+fr/2gAMAwEAAhEDEQA/AP2A+N//AA27ovjuGH4c/EnxPri6zf2rWsmnX/w/8N+DvC9m9xq0OsX/AIh07xRb65rOt393Z6r9p0a10PTG0/TtS08NqFvf26aHHoXz+Mo4uWaQqYKhTp4KWEw9OdWpjay9m4PFqsqeAjTlSniKjrYaqsXOrGTVFUmopSdX06HslkGLo4nFy/tWpi8bKhKngac+SnUp4V4Saxc6iqQhRnTxMZYZwqwtUjOOt1HDh+Hn/BQmOKKO2/ay0Kyto40S3spvDmqa7NaQKoWK1l1vUrtdR1iW3jCxSarfqt7qDobu6AnmkFctXKsbOpUnHN1RjKc5RpQw1WcKSlJtU4yqV51JRgnyxlUlKbSTlJybb+Q+p5/9nM4xj9mKpynyrpHnqVZTlZac05Oct5Nttn//2Q==" }; module.exports = lqip.preSrc; module.exports = Object.assign(module.exports, lqip);
-
-/***/ }),
-
-/***/ "./static/images/201906/ProductDesign/1.jpg":
-/*!**************************************************!*\
-  !*** ./static/images/201906/ProductDesign/1.jpg ***!
-  \**************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/1-2a416bd79a5b3e60bdfb7cb895c312cf.jpg";
-
-/***/ }),
-
-/***/ "./static/images/201906/ProductDesign/1.jpg?lqip":
-/*!*******************************************************!*\
-  !*** ./static/images/201906/ProductDesign/1.jpg?lqip ***!
-  \*******************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-var lqip = { "src": "/_next/static/images/1-2a416bd79a5b3e60bdfb7cb895c312cf.jpg", "preSrc": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAf/AABEIAAcACgMBEQACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4+Tl5ufo6ery8/T19vf4+fr/2gAMAwEAAhEDEQA/APz1+DfxB/Z5+B3iPwR+04fiB8bm/aK8EeLvFnin4V+GvDPh/wADad4AsEj0i3h8ETeMItT0jUbbxMNA8RyLrkti8dq8v2ZtNF+0F8L7TvzDBcR4zPs2zTBYvBUqGTwpUnl+ZTcMVmVDF0q8q1Go6SlRpUW6cVGcoQxEFOMansJpSp1P0vEcNrK8Fl9fDYuFWvJSjjsDF4jDUK9KrTVKvSjUUasqlPl5nTU6lKp78ourFOMofTUP/Bbf/goLLDFK37cWs2jSRpI1rdfALwRc3NsXUMbe4ubQR2txPCT5cs9tGlvLIrSQosbKo+vliGm0sVXaTaTVR6pPzw1/v17nhLLadlfCUL2V7qV79b2xVr+mnbQ//9k=" }; module.exports = lqip.preSrc; module.exports = Object.assign(module.exports, lqip);
-
-/***/ }),
-
-/***/ "./static/images/201906/lineStickerAndLOGO/1-01.jpg":
-/*!**********************************************************!*\
-  !*** ./static/images/201906/lineStickerAndLOGO/1-01.jpg ***!
-  \**********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/1-01-6d9aebda2ada68ee19aaf20070372742.jpg";
-
-/***/ }),
-
-/***/ "./static/images/201906/lineStickerAndLOGO/1-01.jpg?lqip":
-/*!***************************************************************!*\
-  !*** ./static/images/201906/lineStickerAndLOGO/1-01.jpg?lqip ***!
-  \***************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-var lqip = { "src": "/_next/static/images/1-01-6d9aebda2ada68ee19aaf20070372742.jpg", "preSrc": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAf/AABEIAAUACgMBEQACEQEDEQH/xAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+gEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4+Tl5ufo6ery8/T19vf4+fr/2gAMAwEAAhEDEQA/AP7Rf2iLGfTdIt/ElzqN1rFvcXmkaNYaDqaW8umaRd6XZ+MJ5Nfs1SFG/tjVYtVOn6pMQqXGm6dpdsqRvDdTXni5wlCmqr5pqUoQVOTXs4OEK8vaQVvdqTU3CcrtShGCsrPm++4GnPEYqpgaapYeVOjicRPF06cvrVeFerltP6piJ+0ip4WhLDqvh6ajGVOtWxE3KfPD2Xx9B8Rr+5ghuJtO0qWaeKOaWWXQ/Ck0sksqB5JJJZfDTyyyOzFnkkd5HYlnZmJJ+eeLabXsqTs7XlSoyfzk6Tcn3bbber1P1ClkUfZU+XGYmC9nC0Y4nHxjFcqtGMY49RjFLRRikklZJLQ//9k=" }; module.exports = lqip.preSrc; module.exports = Object.assign(module.exports, lqip);
 
 /***/ }),
 
