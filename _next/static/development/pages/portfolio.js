@@ -29468,10 +29468,10 @@ var PortfolioPageContent = function PortfolioPageContent() {
 /*!**********************************!*\
   !*** ./static/data/contact.json ***!
   \**********************************/
-/*! exports provided: 0, 1, 2, default */
+/*! exports provided: 0, 1, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("[{\"id\":10,\"site\":\"linkedin\",\"href\":\"https://tw.linkedin.com\"},{\"id\":20,\"site\":\"instagram\",\"href\":\"https://www.instagram.com/yuze020\"},{\"id\":30,\"site\":\"email\",\"href\":\"yuzhen129@gmail.com\"}]");
+module.exports = JSON.parse("[{\"id\":10,\"site\":\"linkedin\",\"href\":\"https://tw.linkedin.com\"},{\"id\":20,\"site\":\"email\",\"href\":\"yuzhen129@gmail.com\"}]");
 
 /***/ }),
 

@@ -8807,10 +8807,10 @@ exports.formatWithValidation = formatWithValidation;
 
 /***/ }),
 
-/***/ "../node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=D%3A%5Capphia%5CCV_CODE%5Csrc%5Cpages%5Cindex.js!./":
-/*!**************************************************************************************************************************************************************!*\
-  !*** ../node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=D%3A%5Capphia%5CCV_CODE%5Csrc%5Cpages%5Cindex.js ***!
-  \**************************************************************************************************************************************************************/
+/***/ "../node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=D%3A%5CCODE%5CGit%5CSource%5CRepos%5CCV%5CApphia%5CCV_CODE%5Csrc%5Cpages%5Cindex.js!./":
+/*!*************************************************************************************************************************************************************************************************!*\
+  !*** ../node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=D%3A%5CCODE%5CGit%5CSource%5CRepos%5CCV%5CApphia%5CCV_CODE%5Csrc%5Cpages%5Cindex.js ***!
+  \*************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -33264,7 +33264,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! classnames */ "../node_modules/classnames/index.js");
 /* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "D:\\apphia\\CV_CODE\\src\\assets\\utils\\vendors\\VerticalTimeline\\VerticalTimeline.js";
+var _jsxFileName = "D:\\CODE\\Git\\Source\\Repos\\CV\\Apphia\\CV_CODE\\src\\assets\\utils\\vendors\\VerticalTimeline\\VerticalTimeline.js";
 
 
 
@@ -33324,7 +33324,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_visibility_sensor__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react_visibility_sensor__WEBPACK_IMPORTED_MODULE_5__);
 
 
-var _jsxFileName = "D:\\apphia\\CV_CODE\\src\\assets\\utils\\vendors\\VerticalTimeline\\VerticalTimelineElement.js";
+var _jsxFileName = "D:\\CODE\\Git\\Source\\Repos\\CV\\Apphia\\CV_CODE\\src\\assets\\utils\\vendors\\VerticalTimeline\\VerticalTimelineElement.js";
 
 
 
@@ -33499,7 +33499,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _sass_components_layout_module_scss__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! @sass/components/layout.module.scss */ "./assets/sass/components/layout.module.scss");
 /* harmony import */ var _sass_components_layout_module_scss__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(_sass_components_layout_module_scss__WEBPACK_IMPORTED_MODULE_14__);
 
-var _jsxFileName = "D:\\apphia\\CV_CODE\\src\\components\\Layout.js";
+var _jsxFileName = "D:\\CODE\\Git\\Source\\Repos\\CV\\Apphia\\CV_CODE\\src\\components\\Layout.js";
 
 
 /* eslint-disable react/no-array-index-key */
@@ -33706,7 +33706,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _context_scrollYContext__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @context/scrollYContext */ "./context/scrollYContext.js");
 /* harmony import */ var _sass_components_block_module_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @sass/components/block.module.scss */ "./assets/sass/components/block.module.scss");
 /* harmony import */ var _sass_components_block_module_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_sass_components_block_module_scss__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "D:\\apphia\\CV_CODE\\src\\components\\container\\Block.js";
+var _jsxFileName = "D:\\CODE\\Git\\Source\\Repos\\CV\\Apphia\\CV_CODE\\src\\components\\container\\Block.js";
 
 
 /* eslint-disable no-param-reassign */
@@ -33790,7 +33790,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _utils_gtag__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @utils/gtag */ "./assets/utils/gtag.js");
 /* harmony import */ var _sass_components_contact_module_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @sass/components/contact.module.scss */ "./assets/sass/components/contact.module.scss");
 /* harmony import */ var _sass_components_contact_module_scss__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_sass_components_contact_module_scss__WEBPACK_IMPORTED_MODULE_4__);
-var _jsxFileName = "D:\\apphia\\CV_CODE\\src\\components\\container\\Contact.js";
+var _jsxFileName = "D:\\CODE\\Git\\Source\\Repos\\CV\\Apphia\\CV_CODE\\src\\components\\container\\Contact.js";
 
 
  // 展示組件
@@ -33874,7 +33874,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _utils_common_Compare__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @utils/common/Compare */ "./assets/utils/common/Compare.js");
 /* harmony import */ var _static_data_contact_json__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @static/data/contact.json */ "./static/data/contact.json");
 var _static_data_contact_json__WEBPACK_IMPORTED_MODULE_4___namespace = /*#__PURE__*/__webpack_require__.t(/*! @static/data/contact.json */ "./static/data/contact.json", 1);
-var _jsxFileName = "D:\\apphia\\CV_CODE\\src\\components\\container\\Footer.js";
+var _jsxFileName = "D:\\CODE\\Git\\Source\\Repos\\CV\\Apphia\\CV_CODE\\src\\components\\container\\Footer.js";
 
 
  // 展示組件
@@ -33940,7 +33940,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _static_data_nav_json__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @static/data/nav.json */ "./static/data/nav.json");
 var _static_data_nav_json__WEBPACK_IMPORTED_MODULE_7___namespace = /*#__PURE__*/__webpack_require__.t(/*! @static/data/nav.json */ "./static/data/nav.json", 1);
 
-var _jsxFileName = "D:\\apphia\\CV_CODE\\src\\components\\container\\Header.js";
+var _jsxFileName = "D:\\CODE\\Git\\Source\\Repos\\CV\\Apphia\\CV_CODE\\src\\components\\container\\Header.js";
 
 
 
@@ -34031,7 +34031,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_presentational_Card__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @components/presentational/Card */ "./components/presentational/Card.js");
 /* harmony import */ var _sass_components_hobbies_module_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @sass/components/hobbies.module.scss */ "./assets/sass/components/hobbies.module.scss");
 /* harmony import */ var _sass_components_hobbies_module_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_sass_components_hobbies_module_scss__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "D:\\apphia\\CV_CODE\\src\\components\\container\\Hobbies.js";
+var _jsxFileName = "D:\\CODE\\Git\\Source\\Repos\\CV\\Apphia\\CV_CODE\\src\\components\\container\\Hobbies.js";
 
  // 組件
 
@@ -34091,7 +34091,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _sass_components_nav_module_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @sass/components/nav.module.scss */ "./assets/sass/components/nav.module.scss");
 /* harmony import */ var _sass_components_nav_module_scss__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_sass_components_nav_module_scss__WEBPACK_IMPORTED_MODULE_5__);
 
-var _jsxFileName = "D:\\apphia\\CV_CODE\\src\\components\\container\\Nav.js";
+var _jsxFileName = "D:\\CODE\\Git\\Source\\Repos\\CV\\Apphia\\CV_CODE\\src\\components\\container\\Nav.js";
 
 
 
@@ -34164,7 +34164,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_presentational_Image__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @components/presentational/Image */ "./components/presentational/Image.js");
 /* harmony import */ var _sass_components_profile_module_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @sass/components/profile.module.scss */ "./assets/sass/components/profile.module.scss");
 /* harmony import */ var _sass_components_profile_module_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_sass_components_profile_module_scss__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "D:\\apphia\\CV_CODE\\src\\components\\container\\Profile.js";
+var _jsxFileName = "D:\\CODE\\Git\\Source\\Repos\\CV\\Apphia\\CV_CODE\\src\\components\\container\\Profile.js";
 
  // 組件
 
@@ -34257,7 +34257,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_presentational_CircularChart__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @components/presentational/CircularChart */ "./components/presentational/CircularChart.js");
 /* harmony import */ var _sass_components_skills_module_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @sass/components/skills.module.scss */ "./assets/sass/components/skills.module.scss");
 /* harmony import */ var _sass_components_skills_module_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_sass_components_skills_module_scss__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "D:\\apphia\\CV_CODE\\src\\components\\container\\Skills.js";
+var _jsxFileName = "D:\\CODE\\Git\\Source\\Repos\\CV\\Apphia\\CV_CODE\\src\\components\\container\\Skills.js";
 
  // 組件
 
@@ -34331,7 +34331,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "D:\\apphia\\CV_CODE\\src\\components\\container\\VerticalTimeline.js";
+var _jsxFileName = "D:\\CODE\\Git\\Source\\Repos\\CV\\Apphia\\CV_CODE\\src\\components\\container\\VerticalTimeline.js";
 
 
 /* eslint-disable react/no-danger */
@@ -34764,7 +34764,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _sass_components_card_module_scss__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_sass_components_card_module_scss__WEBPACK_IMPORTED_MODULE_4__);
 
 
-var _jsxFileName = "D:\\apphia\\CV_CODE\\src\\components\\presentational\\Card.js";
+var _jsxFileName = "D:\\CODE\\Git\\Source\\Repos\\CV\\Apphia\\CV_CODE\\src\\components\\presentational\\Card.js";
 
 // 組件
  // 樣式
@@ -34856,7 +34856,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _sass_components_circularChart_module_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @sass/components/circularChart.module.scss */ "./assets/sass/components/circularChart.module.scss");
 /* harmony import */ var _sass_components_circularChart_module_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_sass_components_circularChart_module_scss__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "D:\\apphia\\CV_CODE\\src\\components\\presentational\\CircularChart.js";
+var _jsxFileName = "D:\\CODE\\Git\\Source\\Repos\\CV\\Apphia\\CV_CODE\\src\\components\\presentational\\CircularChart.js";
 
  // 樣式
 
@@ -34944,7 +34944,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _utils_common_Image__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @utils/common/Image */ "./assets/utils/common/Image.js");
 
 
-var _jsxFileName = "D:\\apphia\\CV_CODE\\src\\components\\presentational\\Image.js";
+var _jsxFileName = "D:\\CODE\\Git\\Source\\Repos\\CV\\Apphia\\CV_CODE\\src\\components\\presentational\\Image.js";
 
 
 /* eslint-disable import/no-dynamic-require */
@@ -35129,7 +35129,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_4__);
 
 
-var _jsxFileName = "D:\\apphia\\CV_CODE\\src\\components\\presentational\\Link\\CustomLink.js";
+var _jsxFileName = "D:\\CODE\\Git\\Source\\Repos\\CV\\Apphia\\CV_CODE\\src\\components\\presentational\\Link\\CustomLink.js";
 
 
  // href: pages資料夾中的路徑 + 查詢字串
@@ -35196,7 +35196,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _sass_components_scrolltop_module_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @sass/components/scrolltop.module.scss */ "./assets/sass/components/scrolltop.module.scss");
 /* harmony import */ var _sass_components_scrolltop_module_scss__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_sass_components_scrolltop_module_scss__WEBPACK_IMPORTED_MODULE_5__);
 
-var _jsxFileName = "D:\\apphia\\CV_CODE\\src\\components\\presentational\\ScrollTop.js";
+var _jsxFileName = "D:\\CODE\\Git\\Source\\Repos\\CV\\Apphia\\CV_CODE\\src\\components\\presentational\\ScrollTop.js";
 
 
  // 工具
@@ -35252,7 +35252,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_icons_fa__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-icons/fa */ "../node_modules/react-icons/fa/index.esm.js");
 /* harmony import */ var react_icons_io__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-icons/io */ "../node_modules/react-icons/io/index.esm.js");
 /* harmony import */ var react_icons_md__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-icons/md */ "../node_modules/react-icons/md/index.esm.js");
-var _jsxFileName = "D:\\apphia\\CV_CODE\\src\\components\\presentational\\SvgIcon.js";
+var _jsxFileName = "D:\\CODE\\Git\\Source\\Repos\\CV\\Apphia\\CV_CODE\\src\\components\\presentational\\SvgIcon.js";
 
 // 展示組件
 
@@ -35390,7 +35390,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "../node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 
-var _jsxFileName = "D:\\apphia\\CV_CODE\\src\\context\\scrollYContext.js";
+var _jsxFileName = "D:\\CODE\\Git\\Source\\Repos\\CV\\Apphia\\CV_CODE\\src\\context\\scrollYContext.js";
  // 捲軸位移量
 
 var ScrollYStateContext = react__WEBPACK_IMPORTED_MODULE_1___default.a.createContext();
@@ -35638,7 +35638,7 @@ var _static_data_hobbies_json__WEBPACK_IMPORTED_MODULE_9___namespace = /*#__PURE
 var _static_data_skills_json__WEBPACK_IMPORTED_MODULE_10___namespace = /*#__PURE__*/__webpack_require__.t(/*! @static/data/skills.json */ "./static/data/skills.json", 1);
 /* harmony import */ var _static_data_experience_json__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @static/data/experience.json */ "./static/data/experience.json");
 var _static_data_experience_json__WEBPACK_IMPORTED_MODULE_11___namespace = /*#__PURE__*/__webpack_require__.t(/*! @static/data/experience.json */ "./static/data/experience.json", 1);
-var _jsxFileName = "D:\\apphia\\CV_CODE\\src\\pages\\index.js";
+var _jsxFileName = "D:\\CODE\\Git\\Source\\Repos\\CV\\Apphia\\CV_CODE\\src\\pages\\index.js";
 
 
 /* eslint-disable no-return-assign */
@@ -38327,14 +38327,14 @@ module.exports = "data:image/svg+xml;base64,77u/PHN2ZyB4bWxucz0naHR0cDovL3d3dy53
 
 /***/ }),
 
-/***/ 0:
-/*!*****************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=D%3A%5Capphia%5CCV_CODE%5Csrc%5Cpages%5Cindex.js ***!
-  \*****************************************************************************************************************/
+/***/ 10:
+/*!****************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=D%3A%5CCODE%5CGit%5CSource%5CRepos%5CCV%5CApphia%5CCV_CODE%5Csrc%5Cpages%5Cindex.js ***!
+  \****************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=D%3A%5Capphia%5CCV_CODE%5Csrc%5Cpages%5Cindex.js! */"../node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=D%3A%5Capphia%5CCV_CODE%5Csrc%5Cpages%5Cindex.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=D%3A%5CCODE%5CGit%5CSource%5CRepos%5CCV%5CApphia%5CCV_CODE%5Csrc%5Cpages%5Cindex.js! */"../node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=D%3A%5CCODE%5CGit%5CSource%5CRepos%5CCV%5CApphia%5CCV_CODE%5Csrc%5Cpages%5Cindex.js!./");
 
 
 /***/ }),
@@ -38350,5 +38350,5 @@ module.exports = dll_fbfdd5333204b8b31297;
 
 /***/ })
 
-},[[0,"static/runtime/webpack.js","styles"]]]);
+},[[10,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=index.js.map
