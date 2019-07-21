@@ -980,7 +980,8 @@
   overflow: hidden;
   margin: 0.5rem;
   font-size: 0;
-  box-shadow: 4px 4px 6px rgba(236, 92, 30, 0.3); }
+  box-shadow: 4px 4px 6px rgba(236, 92, 30, 0.3);
+  cursor: pointer; }
   .portfolio-module_box_2_DkE figure {
     line-height: 0; }
   .portfolio-module_box_2_DkE img {
