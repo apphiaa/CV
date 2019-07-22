@@ -7760,10 +7760,10 @@ exports.formatWithValidation = formatWithValidation;
 
 /***/ }),
 
-/***/ "../node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fportfolio&absolutePagePath=D%3A%5CCODE%5CGit%5CSource%5CRepos%5CCV%5CApphia%5CCV_CODE%5Csrc%5Cpages%5Cportfolio.js!./":
-/*!**************************************************************************************************************************************************************************************************************!*\
-  !*** ../node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fportfolio&absolutePagePath=D%3A%5CCODE%5CGit%5CSource%5CRepos%5CCV%5CApphia%5CCV_CODE%5Csrc%5Cpages%5Cportfolio.js ***!
-  \**************************************************************************************************************************************************************************************************************/
+/***/ "../node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fportfolio&absolutePagePath=E%3A%5CCode%5CGIT%5CCV%5Capphia%5CCV_CODE%5Csrc%5Cpages%5Cportfolio.js!./":
+/*!*********************************************************************************************************************************************************************************************!*\
+  !*** ../node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fportfolio&absolutePagePath=E%3A%5CCode%5CGIT%5CCV%5Capphia%5CCV_CODE%5Csrc%5Cpages%5Cportfolio.js ***!
+  \*********************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -28358,27 +28358,30 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/head */ "../node_modules/next-server/dist/lib/head.js");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var next_seo__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! next-seo */ "../node_modules/next-seo/lib/index.js");
-/* harmony import */ var next_seo__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(next_seo__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var aos__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! aos */ "../node_modules/aos/dist/aos.js");
-/* harmony import */ var aos__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(aos__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _sass_main_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @sass/main.scss */ "./assets/sass/main.scss");
-/* harmony import */ var _sass_main_scss__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_sass_main_scss__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var _context_scrollYContext__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @context/scrollYContext */ "./context/scrollYContext.js");
-/* harmony import */ var _components_container_Header__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @components/container/Header */ "./components/container/Header.js");
-/* harmony import */ var _components_container_Footer__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @components/container/Footer */ "./components/container/Footer.js");
-/* harmony import */ var _components_presentational_ScrollTop__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @components/presentational/ScrollTop */ "./components/presentational/ScrollTop.js");
-/* harmony import */ var _utils_debounce__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @utils/debounce */ "./assets/utils/debounce.js");
-/* harmony import */ var _config_aos_config__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @config/aos.config */ "../config/aos.config.js");
-/* harmony import */ var _sass_vendors_aos_aos_scss__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @sass/vendors/aos/aos.scss */ "./assets/sass/vendors/aos/aos.scss");
-/* harmony import */ var _sass_vendors_aos_aos_scss__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(_sass_vendors_aos_aos_scss__WEBPACK_IMPORTED_MODULE_13__);
-/* harmony import */ var _sass_components_layout_module_scss__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! @sass/components/layout.module.scss */ "./assets/sass/components/layout.module.scss");
-/* harmony import */ var _sass_components_layout_module_scss__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(_sass_components_layout_module_scss__WEBPACK_IMPORTED_MODULE_14__);
+/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! next/router */ "../node_modules/next/dist/client/router.js");
+/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var next_seo__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! next-seo */ "../node_modules/next-seo/lib/index.js");
+/* harmony import */ var next_seo__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(next_seo__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var aos__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! aos */ "../node_modules/aos/dist/aos.js");
+/* harmony import */ var aos__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(aos__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _sass_main_scss__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @sass/main.scss */ "./assets/sass/main.scss");
+/* harmony import */ var _sass_main_scss__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_sass_main_scss__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _context_scrollYContext__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @context/scrollYContext */ "./context/scrollYContext.js");
+/* harmony import */ var _components_container_Header__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @components/container/Header */ "./components/container/Header.js");
+/* harmony import */ var _components_container_Footer__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @components/container/Footer */ "./components/container/Footer.js");
+/* harmony import */ var _components_presentational_ScrollTop__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @components/presentational/ScrollTop */ "./components/presentational/ScrollTop.js");
+/* harmony import */ var _utils_debounce__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @utils/debounce */ "./assets/utils/debounce.js");
+/* harmony import */ var _config_aos_config__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @config/aos.config */ "../config/aos.config.js");
+/* harmony import */ var _sass_vendors_aos_aos_scss__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! @sass/vendors/aos/aos.scss */ "./assets/sass/vendors/aos/aos.scss");
+/* harmony import */ var _sass_vendors_aos_aos_scss__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(_sass_vendors_aos_aos_scss__WEBPACK_IMPORTED_MODULE_14__);
+/* harmony import */ var _sass_components_layout_module_scss__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! @sass/components/layout.module.scss */ "./assets/sass/components/layout.module.scss");
+/* harmony import */ var _sass_components_layout_module_scss__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(_sass_components_layout_module_scss__WEBPACK_IMPORTED_MODULE_15__);
 
-var _jsxFileName = "D:\\CODE\\Git\\Source\\Repos\\CV\\Apphia\\CV_CODE\\src\\components\\Layout.js";
+var _jsxFileName = "E:\\Code\\GIT\\CV\\apphia\\CV_CODE\\src\\components\\Layout.js";
 
 
 /* eslint-disable react/no-array-index-key */
+
 
 
 
@@ -28402,16 +28405,16 @@ var _jsxFileName = "D:\\CODE\\Git\\Source\\Repos\\CV\\Apphia\\CV_CODE\\src\\comp
 
 
 var LayoutRoot = function LayoutRoot(props) {
-  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_context_scrollYContext__WEBPACK_IMPORTED_MODULE_7__["ScrollYProvider"], {
+  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_context_scrollYContext__WEBPACK_IMPORTED_MODULE_8__["ScrollYProvider"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31
+      lineNumber: 32
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Layout, Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, props, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32
+      lineNumber: 33
     },
     __self: this
   })));
@@ -28421,11 +28424,12 @@ var Layout = function Layout(_ref) {
   var children = _ref.children,
       jsSrcArr = _ref.jsSrcArr,
       title = _ref.title,
-      desc = _ref.desc;
-  // 卷軸相關變數
-  var scrollYState = Object(_context_scrollYContext__WEBPACK_IMPORTED_MODULE_7__["useScrollYState"])(); // 設置捲軸相關變數
+      description = _ref.desc;
+  var router = Object(next_router__WEBPACK_IMPORTED_MODULE_4__["useRouter"])(); // 卷軸相關變數
 
-  var _useScrollYDispatch = Object(_context_scrollYContext__WEBPACK_IMPORTED_MODULE_7__["useScrollYDispatch"])(),
+  var scrollYState = Object(_context_scrollYContext__WEBPACK_IMPORTED_MODULE_8__["useScrollYState"])(); // 設置捲軸相關變數
+
+  var _useScrollYDispatch = Object(_context_scrollYContext__WEBPACK_IMPORTED_MODULE_8__["useScrollYDispatch"])(),
       setScrollY = _useScrollYDispatch.setScrollY; // CDM
 
 
@@ -28446,21 +28450,19 @@ var Layout = function Layout(_ref) {
     handleScroll({
       setHeaderShow: false
     });
-    var debounceHandleScroll = Object(_utils_debounce__WEBPACK_IMPORTED_MODULE_11__["default"])(handleScroll, 20, false);
+    var debounceHandleScroll = Object(_utils_debounce__WEBPACK_IMPORTED_MODULE_12__["default"])(handleScroll, 20, false);
     window.addEventListener('scroll', debounceHandleScroll);
     return function () {
       return window.removeEventListener('scroll', debounceHandleScroll);
     };
-  }, [_utils_debounce__WEBPACK_IMPORTED_MODULE_11__["default"]]); // AOS初始設置
+  }, [_utils_debounce__WEBPACK_IMPORTED_MODULE_12__["default"]]); // AOS初始設置
 
   Object(react__WEBPACK_IMPORTED_MODULE_1__["useEffect"])(function () {
-    aos__WEBPACK_IMPORTED_MODULE_5___default.a.init(_config_aos_config__WEBPACK_IMPORTED_MODULE_12__["default"]);
+    aos__WEBPACK_IMPORTED_MODULE_6___default.a.init(_config_aos_config__WEBPACK_IMPORTED_MODULE_13__["default"]);
   }, []);
-  var mainTitle = "".concat("江聿臻's CV", " - ").concat(title);
-  var mainDescription = desc;
   var header = Object(react__WEBPACK_IMPORTED_MODULE_1__["useMemo"])(function () {
-    return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_container_Header__WEBPACK_IMPORTED_MODULE_8__["default"], {
-      styles: _sass_components_layout_module_scss__WEBPACK_IMPORTED_MODULE_14___default.a,
+    return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_container_Header__WEBPACK_IMPORTED_MODULE_9__["default"], {
+      styles: _sass_components_layout_module_scss__WEBPACK_IMPORTED_MODULE_15___default.a,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 65
@@ -28469,8 +28471,8 @@ var Layout = function Layout(_ref) {
     });
   }, []);
   var footer = Object(react__WEBPACK_IMPORTED_MODULE_1__["useMemo"])(function () {
-    return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_container_Footer__WEBPACK_IMPORTED_MODULE_9__["default"], {
-      styles: _sass_components_layout_module_scss__WEBPACK_IMPORTED_MODULE_14___default.a,
+    return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_container_Footer__WEBPACK_IMPORTED_MODULE_10__["default"], {
+      styles: _sass_components_layout_module_scss__WEBPACK_IMPORTED_MODULE_15___default.a,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 66
@@ -28479,7 +28481,7 @@ var Layout = function Layout(_ref) {
     });
   }, []);
   var scrollTop = Object(react__WEBPACK_IMPORTED_MODULE_1__["useMemo"])(function () {
-    return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_presentational_ScrollTop__WEBPACK_IMPORTED_MODULE_10__["default"], {
+    return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_presentational_ScrollTop__WEBPACK_IMPORTED_MODULE_11__["default"], {
       isShow: scrollYState.isScrollTopShow,
       __source: {
         fileName: _jsxFileName,
@@ -28494,60 +28496,63 @@ var Layout = function Layout(_ref) {
       lineNumber: 71
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("title", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 72
-    },
-    __self: this
-  }, mainTitle), jsSrcArr.map(function (jsSrc, index) {
+  }, jsSrcArr.map(function (jsSrc, index) {
     return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("script", {
       src: jsSrc,
       key: "js".concat(index),
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 74
+        lineNumber: 73
       },
       __self: this
     });
-  })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_seo__WEBPACK_IMPORTED_MODULE_4__["NextSeo"], {
-    config: {
-      openGraph: {
-        title: mainTitle,
-        description: mainDescription
-      }
+  })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_seo__WEBPACK_IMPORTED_MODULE_5__["NextSeo"], {
+    title: title,
+    description: description,
+    canonical: "https://localhost:3000" + router.pathname,
+    openGraph: {
+      title: title,
+      description: description,
+      url: "https://localhost:3000" + router.pathname
     },
+    additionalMetaTags: [{
+      property: 'dc:creator',
+      content: 'Zyl'
+    }, {
+      name: 'application-name',
+      content: 'NextSeo'
+    }],
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 82
+      lineNumber: 81
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: _sass_components_layout_module_scss__WEBPACK_IMPORTED_MODULE_14___default.a.fixBG,
+    className: _sass_components_layout_module_scss__WEBPACK_IMPORTED_MODULE_15___default.a.fixBG,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 90
+      lineNumber: 101
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: _sass_components_layout_module_scss__WEBPACK_IMPORTED_MODULE_14___default.a.app,
+    className: _sass_components_layout_module_scss__WEBPACK_IMPORTED_MODULE_15___default.a.app,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 91
+      lineNumber: 102
     },
     __self: this
   }, header, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("section", {
-    className: _sass_components_layout_module_scss__WEBPACK_IMPORTED_MODULE_14___default.a.content,
+    className: _sass_components_layout_module_scss__WEBPACK_IMPORTED_MODULE_15___default.a.content,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 93
+      lineNumber: 104
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("article", {
-    className: _sass_components_layout_module_scss__WEBPACK_IMPORTED_MODULE_14___default.a.wrapper,
+    className: _sass_components_layout_module_scss__WEBPACK_IMPORTED_MODULE_15___default.a.wrapper,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 94
+      lineNumber: 105
     },
     __self: this
   }, children)), footer), scrollTop);
@@ -28585,7 +28590,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _utils_gtag__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @utils/gtag */ "./assets/utils/gtag.js");
 /* harmony import */ var _sass_components_contact_module_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @sass/components/contact.module.scss */ "./assets/sass/components/contact.module.scss");
 /* harmony import */ var _sass_components_contact_module_scss__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_sass_components_contact_module_scss__WEBPACK_IMPORTED_MODULE_4__);
-var _jsxFileName = "D:\\CODE\\Git\\Source\\Repos\\CV\\Apphia\\CV_CODE\\src\\components\\container\\Contact.js";
+var _jsxFileName = "E:\\Code\\GIT\\CV\\apphia\\CV_CODE\\src\\components\\container\\Contact.js";
 
 
  // 展示組件
@@ -28669,7 +28674,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _utils_common_Compare__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @utils/common/Compare */ "./assets/utils/common/Compare.js");
 /* harmony import */ var _static_data_contact_json__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @static/data/contact.json */ "./static/data/contact.json");
 var _static_data_contact_json__WEBPACK_IMPORTED_MODULE_4___namespace = /*#__PURE__*/__webpack_require__.t(/*! @static/data/contact.json */ "./static/data/contact.json", 1);
-var _jsxFileName = "D:\\CODE\\Git\\Source\\Repos\\CV\\Apphia\\CV_CODE\\src\\components\\container\\Footer.js";
+var _jsxFileName = "E:\\Code\\GIT\\CV\\apphia\\CV_CODE\\src\\components\\container\\Footer.js";
 
 
  // 展示組件
@@ -28735,7 +28740,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _static_data_nav_json__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @static/data/nav.json */ "./static/data/nav.json");
 var _static_data_nav_json__WEBPACK_IMPORTED_MODULE_7___namespace = /*#__PURE__*/__webpack_require__.t(/*! @static/data/nav.json */ "./static/data/nav.json", 1);
 
-var _jsxFileName = "D:\\CODE\\Git\\Source\\Repos\\CV\\Apphia\\CV_CODE\\src\\components\\container\\Header.js";
+var _jsxFileName = "E:\\Code\\GIT\\CV\\apphia\\CV_CODE\\src\\components\\container\\Header.js";
 
 
 
@@ -28832,7 +28837,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _sass_components_nav_module_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @sass/components/nav.module.scss */ "./assets/sass/components/nav.module.scss");
 /* harmony import */ var _sass_components_nav_module_scss__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_sass_components_nav_module_scss__WEBPACK_IMPORTED_MODULE_5__);
 
-var _jsxFileName = "D:\\CODE\\Git\\Source\\Repos\\CV\\Apphia\\CV_CODE\\src\\components\\container\\Nav.js";
+var _jsxFileName = "E:\\Code\\GIT\\CV\\apphia\\CV_CODE\\src\\components\\container\\Nav.js";
 
 
 
@@ -28910,7 +28915,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_4__);
 
 
-var _jsxFileName = "D:\\CODE\\Git\\Source\\Repos\\CV\\Apphia\\CV_CODE\\src\\components\\presentational\\Link\\CustomLink.js";
+var _jsxFileName = "E:\\Code\\GIT\\CV\\apphia\\CV_CODE\\src\\components\\presentational\\Link\\CustomLink.js";
 
 
  // href: pages資料夾中的路徑 + 查詢字串
@@ -28977,7 +28982,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _sass_components_scrolltop_module_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @sass/components/scrolltop.module.scss */ "./assets/sass/components/scrolltop.module.scss");
 /* harmony import */ var _sass_components_scrolltop_module_scss__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_sass_components_scrolltop_module_scss__WEBPACK_IMPORTED_MODULE_5__);
 
-var _jsxFileName = "D:\\CODE\\Git\\Source\\Repos\\CV\\Apphia\\CV_CODE\\src\\components\\presentational\\ScrollTop.js";
+var _jsxFileName = "E:\\Code\\GIT\\CV\\apphia\\CV_CODE\\src\\components\\presentational\\ScrollTop.js";
 
 
  // 工具
@@ -29033,7 +29038,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_icons_fa__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-icons/fa */ "../node_modules/react-icons/fa/index.esm.js");
 /* harmony import */ var react_icons_io__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-icons/io */ "../node_modules/react-icons/io/index.esm.js");
 /* harmony import */ var react_icons_md__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-icons/md */ "../node_modules/react-icons/md/index.esm.js");
-var _jsxFileName = "D:\\CODE\\Git\\Source\\Repos\\CV\\Apphia\\CV_CODE\\src\\components\\presentational\\SvgIcon.js";
+var _jsxFileName = "E:\\Code\\GIT\\CV\\apphia\\CV_CODE\\src\\components\\presentational\\SvgIcon.js";
 
 // 展示組件
 
@@ -29171,7 +29176,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "../node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 
-var _jsxFileName = "D:\\CODE\\Git\\Source\\Repos\\CV\\Apphia\\CV_CODE\\src\\context\\scrollYContext.js";
+var _jsxFileName = "E:\\Code\\GIT\\CV\\apphia\\CV_CODE\\src\\context\\scrollYContext.js";
  // 捲軸位移量
 
 var ScrollYStateContext = react__WEBPACK_IMPORTED_MODULE_1___default.a.createContext();
@@ -29415,7 +29420,7 @@ var _static_data_portfolio_GD_json__WEBPACK_IMPORTED_MODULE_5___namespace = /*#_
 var _static_data_portfolio_RESIZE_json__WEBPACK_IMPORTED_MODULE_6___namespace = /*#__PURE__*/__webpack_require__.t(/*! @static/data/portfolio/RESIZE.json */ "./static/data/portfolio/RESIZE.json", 1);
 
 
-var _jsxFileName = "D:\\CODE\\Git\\Source\\Repos\\CV\\Apphia\\CV_CODE\\src\\pages\\portfolio.js";
+var _jsxFileName = "E:\\Code\\GIT\\CV\\apphia\\CV_CODE\\src\\pages\\portfolio.js";
 
  // 展示組件
 
@@ -29508,14 +29513,14 @@ module.exports = JSON.parse("[{\"name\":\"resize\",\"category\":[\"resize\"],\"d
 
 /***/ }),
 
-/***/ 0:
-/*!*****************************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Fportfolio&absolutePagePath=D%3A%5CCODE%5CGit%5CSource%5CRepos%5CCV%5CApphia%5CCV_CODE%5Csrc%5Cpages%5Cportfolio.js ***!
-  \*****************************************************************************************************************************************************************/
+/***/ 16:
+/*!************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Fportfolio&absolutePagePath=E%3A%5CCode%5CGIT%5CCV%5Capphia%5CCV_CODE%5Csrc%5Cpages%5Cportfolio.js ***!
+  \************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fportfolio&absolutePagePath=D%3A%5CCODE%5CGit%5CSource%5CRepos%5CCV%5CApphia%5CCV_CODE%5Csrc%5Cpages%5Cportfolio.js! */"../node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fportfolio&absolutePagePath=D%3A%5CCODE%5CGit%5CSource%5CRepos%5CCV%5CApphia%5CCV_CODE%5Csrc%5Cpages%5Cportfolio.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fportfolio&absolutePagePath=E%3A%5CCode%5CGIT%5CCV%5Capphia%5CCV_CODE%5Csrc%5Cpages%5Cportfolio.js! */"../node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fportfolio&absolutePagePath=E%3A%5CCode%5CGIT%5CCV%5Capphia%5CCV_CODE%5Csrc%5Cpages%5Cportfolio.js!./");
 
 
 /***/ }),
@@ -29531,5 +29536,5 @@ module.exports = dll_fbfdd5333204b8b31297;
 
 /***/ })
 
-},[[0,"static/runtime/webpack.js","styles"]]]);
+},[[16,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=portfolio.js.map

@@ -10,20 +10,33 @@
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ({
+  title: 'Default Page Title',
+  titleTemplate: `%s | ${"江聿臻's CV"}`,
+  description: 'Description of page',
+  canonical: "https://localhost:3000",
+  noindex: false,
+
   openGraph: {
-    type: 'website',
-    locale: 'en_IE',
     url: "https://localhost:3000",
-    site_name: "江聿臻's CV",
+    title: 'Default Open Graph Title',
+    description: 'Description of open graph',
+    type: 'website',
     images: [
       {
-        url: `${"https://localhost:3000" + "/static"}/images/cover/cover.jpg`,
+        url: `${"https://localhost:3000"}/static/images/cover/cover.jpg`,
         width: 1080,
         height: 1349,
         alt: 'Cover',
       },
     ],
+    locale: 'zh_tw',
+    site_name: "江聿臻's CV",
   },
+
+  facebook: {
+    appId: 895271347480268,
+  },
+
   twitter: {
     handle: '@handle',
     site: '@site',
@@ -10816,7 +10829,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "D:\\apphia\\CV_CODE\\src\\pages\\_app.js";
+var _jsxFileName = "E:\\Code\\GIT\\CV\\apphia\\CV_CODE\\src\\pages\\_app.js";
 
 /**
 Next.js 使用該App 組件初始化頁面。您可以覆蓋它並控制頁面初始化。這可以讓你做出驚人的事情：
@@ -10937,8 +10950,15 @@ function (_App) {
           lineNumber: 97
         },
         __self: this
-      })), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(next_seo__WEBPACK_IMPORTED_MODULE_10__["NextSeo"], {
-        config: _config_seo_config__WEBPACK_IMPORTED_MODULE_12__["default"],
+      })), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(next_seo__WEBPACK_IMPORTED_MODULE_10__["DefaultSeo"], Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, _config_seo_config__WEBPACK_IMPORTED_MODULE_12__["default"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 103
+        },
+        __self: this
+      })), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(next_seo__WEBPACK_IMPORTED_MODULE_10__["LogoJsonLd"], {
+        logo: "".concat("https://localhost:3000", "/static/images/logo.png"),
+        url: "https://localhost:3000",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 104

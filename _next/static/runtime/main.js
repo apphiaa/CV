@@ -6344,7 +6344,7 @@ function connect(options) {
       error.name = err.name;
       error.stack = err.stack; // __NEXT_DIST_DIR is provided by webpack
 
-      (0, _sourceMapSupport.rewriteStacktrace)(error, "D:\\apphia\\CV_CODE\\src\\build");
+      (0, _sourceMapSupport.rewriteStacktrace)(error, "E:\\Code\\GIT\\CV\\apphia\\CV_CODE\\src\\build");
       return error;
     }
   };
