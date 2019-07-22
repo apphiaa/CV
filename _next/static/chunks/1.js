@@ -24541,7 +24541,7 @@ var map = {
 	"./images/201906/lineStickerAndLOGO/1-01.jpg": "./static/images/201906/lineStickerAndLOGO/1-01.jpg",
 	"./images/NotFound.png": "./static/images/NotFound.png",
 	"./images/background/bg.jpg": "./static/images/background/bg.jpg",
-	"./images/covor/cover.jpg": "./static/images/covor/cover.jpg",
+	"./images/cover/cover.jpg": "./static/images/cover/cover.jpg",
 	"./images/education/MMB.png": "./static/images/education/MMB.png",
 	"./images/education/hwu.jpg": "./static/images/education/hwu.jpg",
 	"./images/hobbies/film.png": "./static/images/hobbies/film.png",
@@ -24725,7 +24725,7 @@ var map = {
 	"./201906/lineStickerAndLOGO/1-01.jpg": "./static/images/201906/lineStickerAndLOGO/1-01.jpg?lqip",
 	"./NotFound.png": "./static/images/NotFound.png?lqip",
 	"./background/bg.jpg": "./static/images/background/bg.jpg?lqip",
-	"./covor/cover.jpg": "./static/images/covor/cover.jpg?lqip",
+	"./cover/cover.jpg": "./static/images/cover/cover.jpg?lqip",
 	"./education/MMB.png": "./static/images/education/MMB.png?lqip",
 	"./education/hwu.jpg": "./static/images/education/hwu.jpg?lqip",
 	"./hobbies/film.png": "./static/images/hobbies/film.png?lqip",
@@ -24847,7 +24847,7 @@ var map = {
 	"./201906/lineStickerAndLOGO/1-01.jpg": "./static/images/201906/lineStickerAndLOGO/1-01.jpg",
 	"./NotFound.png": "./static/images/NotFound.png",
 	"./background/bg.jpg": "./static/images/background/bg.jpg",
-	"./covor/cover.jpg": "./static/images/covor/cover.jpg",
+	"./cover/cover.jpg": "./static/images/cover/cover.jpg",
 	"./education/MMB.png": "./static/images/education/MMB.png",
 	"./education/hwu.jpg": "./static/images/education/hwu.jpg",
 	"./hobbies/film.png": "./static/images/hobbies/film.png",
@@ -25171,9 +25171,9 @@ var lqip = { "src": "/_next/static/images/bg-2adac7c45631ae5d6fdf0df9609db1cb.jp
 
 /***/ }),
 
-/***/ "./static/images/covor/cover.jpg":
+/***/ "./static/images/cover/cover.jpg":
 /*!***************************************!*\
-  !*** ./static/images/covor/cover.jpg ***!
+  !*** ./static/images/cover/cover.jpg ***!
   \***************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -25182,9 +25182,9 @@ module.exports = "/_next/static/images/cover-c80ae35629330b41ae37941cefc3e593.jp
 
 /***/ }),
 
-/***/ "./static/images/covor/cover.jpg?lqip":
+/***/ "./static/images/cover/cover.jpg?lqip":
 /*!********************************************!*\
-  !*** ./static/images/covor/cover.jpg?lqip ***!
+  !*** ./static/images/cover/cover.jpg?lqip ***!
   \********************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {

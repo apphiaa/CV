@@ -28358,30 +28358,27 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/head */ "../node_modules/next-server/dist/lib/head.js");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! next/router */ "../node_modules/next/dist/client/router.js");
-/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var next_seo__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! next-seo */ "../node_modules/next-seo/lib/index.js");
-/* harmony import */ var next_seo__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(next_seo__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var aos__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! aos */ "../node_modules/aos/dist/aos.js");
-/* harmony import */ var aos__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(aos__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var _sass_main_scss__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @sass/main.scss */ "./assets/sass/main.scss");
-/* harmony import */ var _sass_main_scss__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_sass_main_scss__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var _context_scrollYContext__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @context/scrollYContext */ "./context/scrollYContext.js");
-/* harmony import */ var _components_container_Header__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @components/container/Header */ "./components/container/Header.js");
-/* harmony import */ var _components_container_Footer__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @components/container/Footer */ "./components/container/Footer.js");
-/* harmony import */ var _components_presentational_ScrollTop__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @components/presentational/ScrollTop */ "./components/presentational/ScrollTop.js");
-/* harmony import */ var _utils_debounce__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @utils/debounce */ "./assets/utils/debounce.js");
-/* harmony import */ var _config_aos_config__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @config/aos.config */ "../config/aos.config.js");
-/* harmony import */ var _sass_vendors_aos_aos_scss__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! @sass/vendors/aos/aos.scss */ "./assets/sass/vendors/aos/aos.scss");
-/* harmony import */ var _sass_vendors_aos_aos_scss__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(_sass_vendors_aos_aos_scss__WEBPACK_IMPORTED_MODULE_14__);
-/* harmony import */ var _sass_components_layout_module_scss__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! @sass/components/layout.module.scss */ "./assets/sass/components/layout.module.scss");
-/* harmony import */ var _sass_components_layout_module_scss__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(_sass_components_layout_module_scss__WEBPACK_IMPORTED_MODULE_15__);
+/* harmony import */ var next_seo__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! next-seo */ "../node_modules/next-seo/lib/index.js");
+/* harmony import */ var next_seo__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(next_seo__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var aos__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! aos */ "../node_modules/aos/dist/aos.js");
+/* harmony import */ var aos__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(aos__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _sass_main_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @sass/main.scss */ "./assets/sass/main.scss");
+/* harmony import */ var _sass_main_scss__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_sass_main_scss__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _context_scrollYContext__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @context/scrollYContext */ "./context/scrollYContext.js");
+/* harmony import */ var _components_container_Header__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @components/container/Header */ "./components/container/Header.js");
+/* harmony import */ var _components_container_Footer__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @components/container/Footer */ "./components/container/Footer.js");
+/* harmony import */ var _components_presentational_ScrollTop__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @components/presentational/ScrollTop */ "./components/presentational/ScrollTop.js");
+/* harmony import */ var _utils_debounce__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @utils/debounce */ "./assets/utils/debounce.js");
+/* harmony import */ var _config_aos_config__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @config/aos.config */ "../config/aos.config.js");
+/* harmony import */ var _sass_vendors_aos_aos_scss__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @sass/vendors/aos/aos.scss */ "./assets/sass/vendors/aos/aos.scss");
+/* harmony import */ var _sass_vendors_aos_aos_scss__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(_sass_vendors_aos_aos_scss__WEBPACK_IMPORTED_MODULE_13__);
+/* harmony import */ var _sass_components_layout_module_scss__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! @sass/components/layout.module.scss */ "./assets/sass/components/layout.module.scss");
+/* harmony import */ var _sass_components_layout_module_scss__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(_sass_components_layout_module_scss__WEBPACK_IMPORTED_MODULE_14__);
 
 var _jsxFileName = "E:\\Code\\GIT\\CV\\apphia\\CV_CODE\\src\\components\\Layout.js";
 
 
 /* eslint-disable react/no-array-index-key */
-
 
 
 
@@ -28405,16 +28402,16 @@ var _jsxFileName = "E:\\Code\\GIT\\CV\\apphia\\CV_CODE\\src\\components\\Layout.
 
 
 var LayoutRoot = function LayoutRoot(props) {
-  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_context_scrollYContext__WEBPACK_IMPORTED_MODULE_8__["ScrollYProvider"], {
+  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_context_scrollYContext__WEBPACK_IMPORTED_MODULE_7__["ScrollYProvider"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32
+      lineNumber: 31
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Layout, Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, props, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33
+      lineNumber: 32
     },
     __self: this
   })));
@@ -28425,11 +28422,10 @@ var Layout = function Layout(_ref) {
       jsSrcArr = _ref.jsSrcArr,
       title = _ref.title,
       description = _ref.desc;
-  var router = Object(next_router__WEBPACK_IMPORTED_MODULE_4__["useRouter"])(); // 卷軸相關變數
+  // 卷軸相關變數
+  var scrollYState = Object(_context_scrollYContext__WEBPACK_IMPORTED_MODULE_7__["useScrollYState"])(); // 設置捲軸相關變數
 
-  var scrollYState = Object(_context_scrollYContext__WEBPACK_IMPORTED_MODULE_8__["useScrollYState"])(); // 設置捲軸相關變數
-
-  var _useScrollYDispatch = Object(_context_scrollYContext__WEBPACK_IMPORTED_MODULE_8__["useScrollYDispatch"])(),
+  var _useScrollYDispatch = Object(_context_scrollYContext__WEBPACK_IMPORTED_MODULE_7__["useScrollYDispatch"])(),
       setScrollY = _useScrollYDispatch.setScrollY; // CDM
 
 
@@ -28450,42 +28446,42 @@ var Layout = function Layout(_ref) {
     handleScroll({
       setHeaderShow: false
     });
-    var debounceHandleScroll = Object(_utils_debounce__WEBPACK_IMPORTED_MODULE_12__["default"])(handleScroll, 20, false);
+    var debounceHandleScroll = Object(_utils_debounce__WEBPACK_IMPORTED_MODULE_11__["default"])(handleScroll, 20, false);
     window.addEventListener('scroll', debounceHandleScroll);
     return function () {
       return window.removeEventListener('scroll', debounceHandleScroll);
     };
-  }, [_utils_debounce__WEBPACK_IMPORTED_MODULE_12__["default"]]); // AOS初始設置
+  }, [_utils_debounce__WEBPACK_IMPORTED_MODULE_11__["default"]]); // AOS初始設置
 
   Object(react__WEBPACK_IMPORTED_MODULE_1__["useEffect"])(function () {
-    aos__WEBPACK_IMPORTED_MODULE_6___default.a.init(_config_aos_config__WEBPACK_IMPORTED_MODULE_13__["default"]);
+    aos__WEBPACK_IMPORTED_MODULE_5___default.a.init(_config_aos_config__WEBPACK_IMPORTED_MODULE_12__["default"]);
   }, []);
   var header = Object(react__WEBPACK_IMPORTED_MODULE_1__["useMemo"])(function () {
-    return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_container_Header__WEBPACK_IMPORTED_MODULE_9__["default"], {
-      styles: _sass_components_layout_module_scss__WEBPACK_IMPORTED_MODULE_15___default.a,
+    return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_container_Header__WEBPACK_IMPORTED_MODULE_8__["default"], {
+      styles: _sass_components_layout_module_scss__WEBPACK_IMPORTED_MODULE_14___default.a,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 65
+        lineNumber: 62
       },
       __self: this
     });
   }, []);
   var footer = Object(react__WEBPACK_IMPORTED_MODULE_1__["useMemo"])(function () {
-    return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_container_Footer__WEBPACK_IMPORTED_MODULE_10__["default"], {
-      styles: _sass_components_layout_module_scss__WEBPACK_IMPORTED_MODULE_15___default.a,
+    return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_container_Footer__WEBPACK_IMPORTED_MODULE_9__["default"], {
+      styles: _sass_components_layout_module_scss__WEBPACK_IMPORTED_MODULE_14___default.a,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 66
+        lineNumber: 63
       },
       __self: this
     });
   }, []);
   var scrollTop = Object(react__WEBPACK_IMPORTED_MODULE_1__["useMemo"])(function () {
-    return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_presentational_ScrollTop__WEBPACK_IMPORTED_MODULE_11__["default"], {
+    return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_presentational_ScrollTop__WEBPACK_IMPORTED_MODULE_10__["default"], {
       isShow: scrollYState.isScrollTopShow,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 67
+        lineNumber: 64
       },
       __self: this
     });
@@ -28493,7 +28489,7 @@ var Layout = function Layout(_ref) {
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_3___default.a, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 71
+      lineNumber: 68
     },
     __self: this
   }, jsSrcArr.map(function (jsSrc, index) {
@@ -28502,21 +28498,19 @@ var Layout = function Layout(_ref) {
       key: "js".concat(index),
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 73
+        lineNumber: 70
       },
       __self: this
     });
-  })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_seo__WEBPACK_IMPORTED_MODULE_5__["NextSeo"], {
+  })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_seo__WEBPACK_IMPORTED_MODULE_4__["NextSeo"], {
     title: title,
     description: description,
-    canonical: "https://localhost:3000" + router.pathname,
     openGraph: {
       title: title,
-      description: description,
-      url: "https://localhost:3000" + router.pathname
+      description: description
     },
     additionalMetaTags: [{
-      property: 'dc:creator',
+      property: 'dc.creator',
       content: 'Zyl'
     }, {
       name: 'application-name',
@@ -28524,35 +28518,35 @@ var Layout = function Layout(_ref) {
     }],
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 81
+      lineNumber: 78
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: _sass_components_layout_module_scss__WEBPACK_IMPORTED_MODULE_15___default.a.fixBG,
+    className: _sass_components_layout_module_scss__WEBPACK_IMPORTED_MODULE_14___default.a.fixBG,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 101
+      lineNumber: 96
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: _sass_components_layout_module_scss__WEBPACK_IMPORTED_MODULE_15___default.a.app,
+    className: _sass_components_layout_module_scss__WEBPACK_IMPORTED_MODULE_14___default.a.app,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 102
+      lineNumber: 97
     },
     __self: this
   }, header, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("section", {
-    className: _sass_components_layout_module_scss__WEBPACK_IMPORTED_MODULE_15___default.a.content,
+    className: _sass_components_layout_module_scss__WEBPACK_IMPORTED_MODULE_14___default.a.content,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 104
+      lineNumber: 99
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("article", {
-    className: _sass_components_layout_module_scss__WEBPACK_IMPORTED_MODULE_15___default.a.wrapper,
+    className: _sass_components_layout_module_scss__WEBPACK_IMPORTED_MODULE_14___default.a.wrapper,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 105
+      lineNumber: 100
     },
     __self: this
   }, children)), footer), scrollTop);
@@ -29513,7 +29507,7 @@ module.exports = JSON.parse("[{\"name\":\"resize\",\"category\":[\"resize\"],\"d
 
 /***/ }),
 
-/***/ 16:
+/***/ 17:
 /*!************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fportfolio&absolutePagePath=E%3A%5CCode%5CGIT%5CCV%5Capphia%5CCV_CODE%5Csrc%5Cpages%5Cportfolio.js ***!
   \************************************************************************************************************************************************/
@@ -29536,5 +29530,5 @@ module.exports = dll_fbfdd5333204b8b31297;
 
 /***/ })
 
-},[[16,"static/runtime/webpack.js","styles"]]]);
+},[[17,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=portfolio.js.map
